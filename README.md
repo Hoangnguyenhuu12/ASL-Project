@@ -15,18 +15,22 @@ A real-time ASL alphabet recognition system using MediaPipe hand landmark extrac
 
 ## Project Structure
 ```
-├── ASL_final_code.py                 # Main real-time ASL recognition application
-├── cutvideo.py                       # Step 1: Extract frames from recorded videos
-├── croppicture.py                    # Step 2: Crop & normalize hand images (256x256)
-├── label.py                          # Step 3: Extract landmarks & label data (Google Colab)
-├── train.ipynb                       # Step 4: Train Random Forest and XGBoost models
-├── hand_landmarks_final.csv          # Processed dataset (21 landmarks × 3D coords per sample)
-├── mo_hinh_randomforest_cu_chi.pkl   # Trained Random Forest model
-├── bo_giai_ma_nhan_randomforest.pkl  # Label encoder for the RF model
+├── code/
+│   ├── ASL_final_code.py             # Main real-time ASL recognition application
+│   ├── cutvideo.py                   # Step 1: Extract frames from recorded videos
+│   ├── croppicture.py                # Step 2: Crop & normalize hand images (256x256)
+│   ├── label.py                      # Step 3: Extract landmarks & label data (Google Colab)
+│   └── train.ipynb                   # Step 4: Train Random Forest and XGBoost models
+├── models/
+│   ├── mo_hinh_randomforest_cu_chi.pkl   # Trained Random Forest model
+│   └── bo_giai_ma_nhan_randomforest.pkl  # Label encoder for the RF model
+├── data/
+│   └── hand_landmarks_final.csv      # Processed dataset (21 landmarks × 3D coords per sample)
+├── docs/
+│   ├── ASL_Report.pdf
+│   └── ASL_Presentation.pdf
 ├── requirements.txt
-├── README.md
-├── ASL_Report.pdf
-└── ASL_Presentation.pdf
+└── README.md
 ```
 
 ---
