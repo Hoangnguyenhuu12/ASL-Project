@@ -1,0 +1,18 @@
+# Core runtime (for ASL_final_code.py)
+opencv-python
+mediapipe
+numpy
+pandas
+scikit-learn
+joblib
+
+# Data pipeline (for croppicture.py, cutvideo.py)
+# No extra deps beyond opencv and mediapipe
+
+# Training (for train.ipynb)
+xgboost
+imbalanced-learn
+jupyter
+
+# Colab labeling (for label.py — run in Google Colab, not locally)
+# google-colab is pre-installed in Colab environments
