@@ -1,0 +1,6 @@
+hand_landmarker.task
+   data/frames/
+   data/frames_normalized/
+   __pycache__/
+   *.pyc
+   .DS_Store
