@@ -1,6 +1,6 @@
 # American Sign Language Alphabet Recognition
 
-A real-time ASL alphabet recognition system using MediaPipe hand landmark extraction and a Random Forest classifier. Built for the DAP391 course at HCM FPT University.
+A real-time ASL alphabet recognition system using MediaPipe hand landmark extraction and a Random Forest classifier. Built for the DAP391m course at HCM FPT University.
 
 ## Results
 - **Random Forest:** 99.82% test accuracy, 99.78% OOB score, 5-fold CV: 99.68%
